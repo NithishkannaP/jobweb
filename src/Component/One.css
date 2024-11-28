@@ -1,0 +1,101 @@
+.navbar li {
+    color: black;
+    padding: 10px;
+    display: block;
+    float: left;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 20px;
+    padding-left: 80px;
+
+}
+
+.but {
+    color: black;
+    padding: 10px;
+    font-weight: 500;
+    float: right;
+    margin-top:0px;
+    margin-right: 100px;
+    border-radius: 20px;
+    font-size: 15px;
+    border-color: orange;
+
+}
+
+.outer {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(237, 162, 24);
+    display: flex;
+}
+
+.inner {
+    margin-top: 60px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 60px;
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    background-color: white;
+
+
+}
+
+.nk {
+    color: orange;
+    font-weight: bolder;
+    padding-right: 100px;
+}
+
+.cont {
+    text-align: left;
+    margin-top: 200PX;
+    margin-left: 150px;
+}
+
+.cont h2 {
+    font-size: 30px;
+}
+
+.cont h1 {
+    font-size: 60px;
+}
+
+.cont p1 {
+    color: orange;
+    font-size: 40px;
+}
+
+.cont p {
+    font-size: 30px;
+}
+
+.cont button {
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+
+.circle {
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    border-top-left-radius: 100%;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
